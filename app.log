@@ -24,3 +24,11 @@ INFO | 23.06.2026 11:14:11 | GET | / | Sugawara | data=13 testing=48
 INFO | 23.06.2026 11:14:11 | GET | / | Sugawara | data=13 testing=48
 INFO | 23.06.2026 11:14:12 | GET | /main | Ivan | data=796 testing=232
 INFO | 23.06.2026 11:14:12 | GET | /main | Ivan | data=796 testing=232
+INFO | 23.06.2026 12:04:01 | GET | / | Sugawara | data=7 testing=23
+INFO | 23.06.2026 12:04:01 | GET | / | Sugawara | data=7 testing=23
+INFO | 23.06.2026 12:04:04 | GET | / | Ivan | data=3 testing=35
+INFO | 23.06.2026 12:04:04 | GET | / | Ivan | data=3 testing=35
+INFO | 23.06.2026 12:04:05 | GET | / | Sugawara | data=45 testing=30
+INFO | 23.06.2026 12:04:05 | GET | / | Sugawara | data=45 testing=30
+INFO | 23.06.2026 12:04:18 | GET | / | Sugawara | data=83 testing=4
+INFO | 23.06.2026 12:04:18 | GET | / | Sugawara | data=83 testing=4

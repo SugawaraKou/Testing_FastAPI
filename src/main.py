@@ -4,7 +4,7 @@ import logging
 
 import random
 
-from prometheus_fastapi_instrumentator import Instrumentator
+# from prometheus_fastapi_instrumentator import Instrumentator
 
 # Базовая настройка для консоли
 logging.basicConfig(
@@ -23,11 +23,16 @@ file_handler.setFormatter(file_formatter)
 root_logger = logging.getLogger()
 root_logger.addHandler(file_handler)
 
+"""
+sputnik_tekhnika/23.06.2026/10-44-11_1566_1782113299_1782200362.csv
+omnicomm/23.06.2026/12-27-59_2818_1782075604_1782161936.csv
+"""
+
 app = FastAPI(
     title="TEST YANDEX API",
     version="1.0.0",
 )
-Instrumentator().instrument(app).expose(app)
+# Instrumentator().instrument(app).expose(app)
 
 
 test_users = ['Sugawara', 'Ivan']
